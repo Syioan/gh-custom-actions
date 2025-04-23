@@ -50,7 +50,7 @@ jobs:
           name: dist-files
           path: dist
   deploy:
-    permission:
+    permissions:
       id-token: write
       contents: read
     needs: build
